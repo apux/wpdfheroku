@@ -23,7 +23,7 @@ end
 gem 'jquery-rails'
 
 gem 'wkhtmltopdf-binary'
-gem 'wicked_pdf'
+gem 'wicked_pdf', '~> 0.11'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -96,7 +96,8 @@ GEM
     tzinfo (0.3.48)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
-    wicked_pdf (1.0.5)
+    wicked_pdf (0.11.0)
+      rails
     wkhtmltopdf-binary (0.9.9.3)
 
 PLATFORMS
@@ -109,7 +110,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
-  wicked_pdf
+  wicked_pdf (~> 0.11)
   wkhtmltopdf-binary
 
 BUNDLED WITH

@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: wpdfheroku_development
+  pool: 5
+  username:
+  password:
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: wpdfheroku_test
+  pool: 5
+  username:
+  password:
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: wpdfheroku_production
+  pool: 5
+  username:
+  password:
